@@ -7,9 +7,12 @@ A personal learning repository documenting my journey through the essential math
 ```
 ml-math/
 ├── linear_algebra/       # Linear algebra concepts and exercises
-│   └── vectors.ipynb     # Vectors: geometric & algebraic interpretation, operations
-├── calculus/              # Calculus concepts (coming soon)
-├── statistics/            # Statistics concepts (coming soon)
+│   ├── vectors.ipynb
+│   ├── vector_spaces.ipynb
+│   └── vector_multiplication.ipynb
+├── statistics/            # Statistics concepts and exercises
+│   ├── descriptive_statistics.ipynb
+│   └── visualizing_data.ipynb
 ├── pyproject.toml
 └── README.md
 ```
@@ -21,12 +24,15 @@ ml-math/
 | Notebook | Topics Covered |
 |----------|---------------|
 | [vectors.ipynb](linear_algebra/vectors.ipynb) | Geometric & algebraic interpretation, vector orientation, transpose, addition & subtraction, scalar multiplication |
-
-### Calculus
-🚧 *Coming soon*
+| [vector_spaces.ipynb](linear_algebra/vector_spaces.ipynb) | Vector spaces, subspaces, span, linear independence, basis |
+| [vector_multiplication.ipynb](linear_algebra/vector_multiplication.ipynb) | Dot product, vector multiplication operations |
 
 ### Statistics
-🚧 *Coming soon*
+
+| Notebook | Topics Covered |
+|----------|---------------|
+| [descriptive_statistics.ipynb](statistics/descriptive_statistics.ipynb) | Descriptive vs inferential statistics, data distribution, measures of central tendency |
+| [visualizing_data.ipynb](statistics/visualizing_data.ipynb) | Data visualization, bar plots, pie charts |
 
 ## 🛠️ Setup
 
